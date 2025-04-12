@@ -20,7 +20,7 @@ namespace ConsoleApp7
         DBA,            // Level 4
     }
 
-    public struct Employee
+    public class Employee
     {
         private int id;
         private SecurityLevel securityLevel;
@@ -72,7 +72,7 @@ namespace ConsoleApp7
     }
 
     // Hire Date Structure
-    public struct HireDate
+    public class HireDate
     {
         private int day;
         private int month;
